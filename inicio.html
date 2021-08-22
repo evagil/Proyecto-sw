@@ -8,61 +8,88 @@
     <link rel="stylesheet" href="./estilo.css">
 </head>
 <body>
-    <div class="navbar">
-        <a href="./inicio.html">Home</a>
-        <a href="./servicios.html">Servicios</a>
-        <a href="./equipo.html">Equipo</a>
-        <a href="./trabajo-cliente.html">Trabajo/Cliente</a>
-        <a href="./contacto.html">Contact</a>
-    </div>
+  <div id="navbar" class="navbar">
+      <a href="./inicio.html">
+        <i class="fas fa-home"></i>
+        <span>Home</span>
+      </a>
+      <a href="./servicios.html">
+        <i class="far fa-keyboard"></i>
+        <span>Servicios</span>
+      </a>
+      <a href="./equipo.html">
+        <i class="fas fa-users"></i>
+        <span>Equipo</span>
+      </a>
+      <a href="./trabajo-cliente.html">
+        <i class="fas fa-user-tie"></i>
+        <span>Trabajo/Cliente</span>
+      </a>
+      <a href="./contacto.html">
+        <i class="far fa-envelope"></i>
+        <span>Contacto</span>
+      </a>
+  </div>
+
+  <div class="content">
     <!-- Slideshow container -->
-<div class="slideshow-container">
-
-    <!-- Full-width images with number and caption text -->
-    <div class="mySlides fade">
-      <div class="numbertext">1 / 3</div>
-      <img src="./informática1.jpg" style="width:100%">    
-    </div>
-  
-    <div class="mySlides fade">
-      <div class="numbertext">2 / 3</div>
-      <img src="./informatica4.jpg" style="width:100%">      
-    </div>
-  
-    <div class="mySlides fade">
-      <div class="numbertext">3 / 3</div>
-      <img src="./informatica5.jpg" style="width:100%">     
-    </div>
-  
-    <!-- Next and previous buttons -->
-    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1)">&#10095;</a>
-  </div>
-  <br>
-  
-  <!-- The dots/circles -->
-  <div style="text-align:center">
-    <span class="dot" onclick="currentSlide(1)"></span>
-    <span class="dot" onclick="currentSlide(2)"></span>
-    <span class="dot" onclick="currentSlide(3)"></span>
-  </div>
-
-  <div class="resumen">
-      <div id="servicios">
-        <h2>Motivos por los que los servicios informáticos son imprescindibles</h2>
-        <ol><li><strong>Ahorro de tiempo y dinero</strong>. La informática reduce el coste de realizar determinadas tareas gracias a la automatización de muchos procesos como los pagos, facturación, control del almacén… Y, por extensión, los empleados disponen de más tiempo para dedicarse a otros cometidos enfocados al crecimiento personal de la empresa.</li>
-          <li>Permite <strong>coordinar equipos de trabajo</strong> que se hallan en distintos puntos geográficos, lo cual facilita mucho la comunicación de los empleados mediante correo electrónico o bien directamente vía Skype o WhatsApp. Trabajar con una única base de datos que siempre está actualizada permite que cualquier modificación que se realice respecto a un cliente pueda ser visualizada por todos los miembros del equipo de manera inmediata.&nbsp;</li>
-          <li>Posibilita la <strong>captación de clientes</strong> potenciales que están a cientos de kilómetros de distancia.</li>
-          <li>Proporciona una <strong>atención al cliente</strong> sin necesidad de estar cara a cara con él, resolviendo sus dudas y contratiempos vía internet. Herramientas como el correo electrónico, las newsletter o la formación online ayudan a mejorar la imagen de la empresa y a dar mejor servicio.</li>
-          <li>Mantiene <strong>a salvo nuestros datos </strong>de posibles amenazas cibernéticas. La tecnología va avanzando y, con la misma velocidad, lo hacen tales amenazas. Por eso es muy importante trabajar con tecnologías de seguridad que permiten utilizar herramientas actualizadas capaces de hacerles frente.</li>
-          <li>Ofrece un <strong>posicionamiento</strong> inmejorable dentro de la red, dándole visibilidad a nuestra empresa y optimizando al máximo nuestro portal. Es importante tener una interacción solvente con los principales buscadores, en especial con el omnipresente Google y, por supuesto, tener una presencia más que suficiente en las redes sociales.&nbsp;</li>
-        </ol>
+    <div class="slideshow-container">
+      <!-- Full-width images with number and caption text -->
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 3</div>
+        <img src="./informática1.jpg" style="width:100%">    
       </div>
-      <div id="historial-de-proyectos">
-        Proyectos hechos
+    
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+        <img src="./informatica4.jpg" style="width:100%">      
+      </div>
+    
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <img src="./informatica5.jpg" style="width:100%">     
+      </div>
+    
+      <!-- Next and previous buttons -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+  
+    <!-- The dots/circles -->
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+    <div id="informacion">
+      <h1>Motivos por los que los servicios informáticos son imprescindibles</h1>
+      <section id="servicios">
+        <article id="descripcionDeServicios">
+          <ol>
+            <li><strong>Ahorro de tiempo y dinero</strong>. La informática reduce el coste de realizar determinadas tareas gracias a la automatización de muchos procesos como los pagos, facturación, control del almacén… Y, por extensión, los empleados disponen de más tiempo para dedicarse a otros cometidos enfocados al crecimiento personal de la empresa.</li>
+            <li>Permite <strong>coordinar equipos de trabajo</strong> que se hallan en distintos puntos geográficos, lo cual facilita mucho la comunicación de los empleados mediante correo electrónico o bien directamente vía Skype o WhatsApp. Trabajar con una única base de datos que siempre está actualizada permite que cualquier modificación que se realice respecto a un cliente pueda ser visualizada por todos los miembros del equipo de manera inmediata.&nbsp;</li>
+            <li>Posibilita la <strong>captación de clientes</strong> potenciales que están a cientos de kilómetros de distancia.</li>
+            <li>Proporciona una <strong>atención al cliente</strong> sin necesidad de estar cara a cara con él, resolviendo sus dudas y contratiempos vía internet. Herramientas como el correo electrónico, las newsletter o la formación online ayudan a mejorar la imagen de la empresa y a dar mejor servicio.</li>
+            <li>Mantiene <strong>a salvo nuestros datos </strong>de posibles amenazas cibernéticas. La tecnología va avanzando y, con la misma velocidad, lo hacen tales amenazas. Por eso es muy importante trabajar con tecnologías de seguridad que permiten utilizar herramientas actualizadas capaces de hacerles frente.</li>
+            <li>Ofrece un <strong>posicionamiento</strong> inmejorable dentro de la red, dándole visibilidad a nuestra empresa y optimizando al máximo nuestro portal. Es importante tener una interacción solvente con los principales buscadores, en especial con el omnipresente Google y, por supuesto, tener una presencia más que suficiente en las redes sociales.&nbsp;</li>
+          </ol>
+        </article>
+      </section>
+
+      <h1>Proyectos en los que trabajamos</h1>
+      <section id="contenedorDeProyectos">
+        <article id="proyectos">
+          <!-- Aqui se agregan los proyectos dinamicamente -->
+        </article>
+      </section>
     </div>
   </div>
 
-  <script src="./main.js"></script>
+  <script src="https://kit.fontawesome.com/d68f033c40.js" crossorigin="anonymous"></script>
+  <script src="./sticky-navbar.js"></script>
+  <script src="./acordeon.js"></script>
+  <script type="module" src="./main.js"></script>
 </body>
 </html>

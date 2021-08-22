@@ -1,9 +1,19 @@
 * {
     box-sizing:border-box;
-    margin: 0
+    margin: 0;
+    font-family: "Noto Sans", sans-serif;
+    text-align: center;
 }
 
-img {
+h1 {
+  margin: 20px;
+  font-weight: 400;
+  font-size: 38;
+  padding: 50px;
+  color: rgb(73, 73, 73);
+}
+
+.mySlides img {
     width: 100%;
     height: 500px;
 }
@@ -38,6 +48,11 @@ img {
 /* Position the "next button" to the right */
 .next {
   right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev {
+  left: 0;
   border-radius: 3px 0 0 3px;
 }
 
@@ -82,11 +97,6 @@ img {
   background-color: #717171;
 }
 
-body, html {
-    width: 100vw;
-    height: 100vh;
-}
-
 /* Fading animation */
 .fade {
     width: 100%;
@@ -110,57 +120,93 @@ body, html {
 
 /* The navigation bar */
 .navbar {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    overflow: hidden;
-    background-color: #333;
-    position: fixed; /* Set the navbar to fixed position */
-    top: 10; /* Position the navbar at the top of the page */
-    width: 100%; /* Full width */
-    z-index: 1;
-  }
+  display: flex;
+  flex-flow: row wrap;
+  overflow: hidden;
+  background-color: #333;
+  width: 100%; /* Full width */
+  z-index: 1;
+}
   
-  /* Links inside the navbar */
-  .navbar a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  /* Change background on mouse-over */
-  .navbar a:hover {
-    background: #ddd;
-    color: black;
-  }
-  
-  /* Main content */
-  .main {
-    margin-top: 30px; /* Add a top margin to avoid content overlay */
-  }
-
-  .resumen {
-      margin: 20px;
-      padding: 20px;
-      border: 1px solid black;
-  }
-
-  ol {
-    display: block;
-    list-style-type: decimal;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
+/* Links inside the navbar */
+.navbar a {
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  transition: all 500ms ease;
+  width: 20%;
 }
 
+/* Change background on mouse-over */
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
 
-ol li, ul li {
-    position: relative;
-    margin-bottom: 10px;
-    color: #666;
+.sticky {
+  position: fixed;
+  top: 0;
+}
+
+.sticky + .content {
+  padding-top: 30px;
+}
+
+#informacion {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin-top: 10px;
+  width: 100%;
+  background: rgba(196, 196, 196, 0.5);
+}
+
+#servicios, #contenedorDeProyectos {
+  width: 100%;
+  background: white;
+  padding: 30px;
+}
+
+#descripcionDeServicios {
+  width: 70%;
+  margin: auto;
+}
+
+#descripcionDeServicios * li {
+  text-align: left;
+  margin-top: 10px
+}
+
+#proyectos {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  width: 70%;
+  margin: auto;
+}
+
+.imagenProy {
+  width: 100%;
+}
+
+.contenedorProy {
+  display: inline-block;
+  width: 200px;
+  padding: 10px;
+  border-radius: 8px;
+  transition: all 300ms ease;
+}
+
+.contenedorProy:hover {
+  transform: scale(1.05);
+  background: rgba(181, 203, 243, 0.5);
+}
+
+.detallesProy h3 {
+  font-weight: 600;
+  font-size: 25;
+  padding: 5px;
+  color: rgb(73, 73, 73);
 }

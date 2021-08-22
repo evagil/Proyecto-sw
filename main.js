@@ -1,32 +1,13 @@
-var slideIndex = 1;
-showSlides(slideIndex);
+import Proyecto from "./proyecto.js";
 
-// Next/previous controls
-function plusSlides(n) {
-  showSlides(slideIndex += n);
+// Proyectos
+const proyectoAppRegistro = new Proyecto('./informática1.jpg', 'Aplicacion de Registro', 'Creamos una aplicacion para registrarse.')
+const proyectoAppTiendaOnline = new Proyecto('./informatica2.jpg', 'Tienda Online', 'Creamos una aplicacion de una tienda online.')
+const proyectoAppMensajeria = new Proyecto('./informatica3.jpg', 'Aplicacion de Mensajeria', 'Creamos una aplicacion para mandar mensajes.')
+
+let proyectos = [proyectoAppRegistro, proyectoAppTiendaOnline, proyectoAppMensajeria]
+let articuloDeProyectos = document.getElementById('proyectos')
+
+for(let proyecto of proyectos) {
+  articuloDeProyectos.appendChild(proyecto.obtenerElementoProyecto())
 }
-
-// Thumbnail image controls
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-}
-
-setInterval(() => {
-    plusSlides(1)
-}, 3000);
