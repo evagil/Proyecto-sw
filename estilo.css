@@ -115,10 +115,10 @@ body, html {
     justify-content: space-between;
     overflow: hidden;
     background-color: #333;
-    position: fixed; /* Set the navbar to fixed position */
+   /* position: fixed; /* Set the navbar to fixed position */
     top: 10; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
-    z-index: 1;
+   /* z-index: 1;*/
   }
   
   /* Links inside the navbar */
@@ -158,9 +158,54 @@ body, html {
     padding-inline-start: 40px;
 }
 
-
 ol li, ul li {
     position: relative;
     margin-bottom: 10px;
     color: #666;
+}
+
+.imgEquipo {  
+  margin-top: 150px;
+  margin-left: 150px;
+  margin-right: 150px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+  height: 150px;
+}
+
+.horizontalEquipo{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+element.style {
+  color: #747474;
+}
+.caja1{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;  
+}
+.cajaInterior1{
+  word-wrap: break-word;
+  width: 250px;
+  font-size: 15px;
+}
+.cajaInterior2{
+  word-wrap: break-word;
+  width: 250px;
+  font-size: 15px;
+}
+.cajaInterior3{
+  word-wrap: break-word;
+  width: 250px;
+  font-size: 15px;
+}
+.cajaInterior4{
+  word-wrap: break-word;
+  width: 250px;
+  font-size: 15px;
 }
