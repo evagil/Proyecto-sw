@@ -176,9 +176,9 @@ ol li, ul li {
 }
 
 .horizontalEquipo{
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
+ /* display: flex;*/
+ /* flex-flow: row wrap;*/
+ /* justify-content: space-between;*/
 }
 
 element.style {
@@ -208,4 +208,10 @@ element.style {
   word-wrap: break-word;
   width: 250px;
   font-size: 15px;
+}
+.section--title .h2 {
+  margin-bottom: 10px;
+}
+.mb--80 {
+  margin-bottom: 80px;
 }
