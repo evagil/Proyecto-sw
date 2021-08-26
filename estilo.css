@@ -210,3 +210,94 @@ h1 {
   padding: 5px;
   color: rgb(73, 73, 73);
 }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change background on mouse-over */
+  .navbar a:hover {
+    background: #ddd;
+    color: black;
+  }
+  
+  /* Main content */
+  .main {
+    margin-top: 30px; /* Add a top margin to avoid content overlay */
+  }
+
+  .resumen {
+      margin: 20px;
+      padding: 20px;
+      border: 1px solid black;
+  }
+
+  ol {
+    display: block;
+    list-style-type: decimal;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+ol li, ul li {
+    position: relative;
+    margin-bottom: 10px;
+    color: #666;
+}
+
+
+
+/*.horizontalEquipo{
+ /* display: flex;*/
+ /* flex-flow: row wrap;*/
+ /* justify-content: space-between;*/
+/*}*/
+
+element.style {
+  color: #747474;
+}
+
+/*----------Contacto------------------*/
+
+
+.fusion-accordian .panel-heading {
+  padding: 0;
+  background: 0 0;
+}
+
+.fusion-accordian .fusion-panel {
+  box-shadow: none;
+  border: none;
+  border-bottom: 1px solid #e5e4e3;
+  border-radius: 0;
+  background-clip: padding-box;
+}
+
+form {
+  display: block;
+  margin-top: 0em;
+}
+.wpcf7 .screen-reader-response {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  width: 1px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+#wrapper .meta, .fusion-blog-timeline-layout .fusion-timeline-date, .fusion-body #main .tribe-common .tribe-events-c-day-marker__date, .fusion-body .fusion-wrapper #main .tribe-common .tribe-common-h6--min-medium, .fusion-body .tribe-block__tickets__registration__tickets__header, .fusion-body .tribe-common .tribe-common-b2, .fusion-body .tribe-common .tribe-common-b3, .fusion-main-menu .fusion-custom-menu-item-contents, .fusion-project-details-tb .project-info h4, .fusion-rollover .price .amount, .post .post-content, .post-content blockquote, .project-content .project-info h4, .review blockquote div, .search input, .sidebar .jtwt, .sidebar .widget .recentcomments, .sidebar .widget_archive li, .sidebar .widget_categories li, .sidebar .widget_layered_nav li, .sidebar .widget_links li, .sidebar .widget_meta li, .sidebar .widget_nav_menu li, .sidebar .widget_pages li, .sidebar .widget_product_categories li, .sidebar .widget_recent_entries li, .title-row, body {
+  color: #5e5e5e;
+}
+

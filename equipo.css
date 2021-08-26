@@ -1,0 +1,38 @@
+.imgEquipo {  
+    margin-top: 150px;
+    margin-left: 150px;
+    margin-right: 150px;  
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    display: block;
+    padding: 5px;
+    width: 150px;
+    height: 150px;
+  }
+
+ .ContenedorDiv{
+    display: flex;
+ }
+
+ .section--title .h2 {
+    margin-bottom: 10px;
+  }
+  .mb--80 {
+    margin-bottom: 80px;
+  }
+
+.equipoPersona{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }  
+
+  .parrafo{
+      background: #ccc ;
+      height: 220px;
+      margin: 2rem auto;
+      text-align: center;
+      width: 300px;
+  }
+
+  
