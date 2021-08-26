@@ -164,16 +164,7 @@ ol li, ul li {
     color: #666;
 }
 
-.imgEquipo {  
-  margin-top: 150px;
-  margin-left: 150px;
-  margin-right: 150px;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  padding: 5px;
-  width: 150px;
-  height: 150px;
-}
+
 
 /*.horizontalEquipo{
  /* display: flex;*/
@@ -183,37 +174,6 @@ ol li, ul li {
 
 element.style {
   color: #747474;
-}
-.caja1{
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;  
-}
-.cajaInterior1{
-  word-wrap: break-word;
-  width: 250px;
-  font-size: 15px;
-}
-.cajaInterior2{
-  word-wrap: break-word;
-  width: 250px;
-  font-size: 15px;
-}
-.cajaInterior3{
-  word-wrap: break-word;
-  width: 250px;
-  font-size: 15px;
-}
-.cajaInterior4{
-  word-wrap: break-word;
-  width: 250px;
-  font-size: 15px;
-}
-.section--title .h2 {
-  margin-bottom: 10px;
-}
-.mb--80 {
-  margin-bottom: 80px;
 }
 
 /*----------Contacto------------------*/
