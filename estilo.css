@@ -1,14 +1,14 @@
 * {
-    box-sizing:border-box;
-    margin: 0;
-    font-family: "Noto Sans", sans-serif;
-    text-align: center;
+  box-sizing:border-box;
+  margin: 0;
+  font-family: "Noto Sans", sans-serif;
+  text-align: center;
 }
 
 h1 {
   margin: 20px;
   font-weight: 400;
-  font-size: 38;
+  font-size: 38px;
   padding: 50px;
   color: rgb(73, 73, 73);
 }

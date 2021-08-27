@@ -1,114 +1,26 @@
 * {
-  box-sizing:border-box;
+  box-sizing: border-box;
   margin: 0;
+  padding: 0;
   font-family: "Noto Sans", sans-serif;
   text-align: center;
 }
 
-img {
-  width: 100%;
-  height: 500px;
+h1 {
+  margin: 20px;
+  font-weight: 400;
+  font-size: 38px;
+  padding: 50px;
+  color: rgb(73, 73, 73);
 }
 
-/* Slideshow container */
-.slideshow-container {
-position: relative;
-margin: auto;
+h2 {
+  margin: 10px;
+  padding: 10px;
+  font-weight: 400;
+  font-size: 34px;
+  color: rgb(73, 73, 73);
 }
-
-/* Hide the images by default */
-.mySlides {
-display: none;
-}
-
-/* Next & previous buttons */
-.prev, .next {
-cursor: pointer;
-position: absolute;
-top: 50%;
-width: auto;
-margin-top: -22px;
-padding: 16px;
-color: white;
-font-weight: bold;
-font-size: 18px;
-transition: 0.6s ease;
-border-radius: 0 3px 3px 0;
-user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-right: 0;
-border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-background-color: rgba(0,0,0,0.8);
-}
-
-/* Caption text */
-.text {
-color: #f2f2f2;
-font-size: 15px;
-padding: 8px 12px;
-position: absolute;
-bottom: 8px;
-width: 100%;
-text-align: center;
-}
-
-/* Number text (1/3 etc) */
-.numbertext {
-color: #f2f2f2;
-font-size: 12px;
-padding: 8px 12px;
-position: absolute;
-top: 0;
-}
-
-/* The dots/bullets/indicators */
-.dot {
-cursor: pointer;
-height: 15px;
-width: 15px;
-margin: 0 2px;
-background-color: #bbb;
-border-radius: 50%;
-display: inline-block;
-transition: background-color 0.6s ease;
-}
-
-.active, .dot:hover {
-background-color: #717171;
-}
-
-body, html {
-  width: 100vw;
-  height: 100vh;
-}
-
-/* Fading animation */
-.fade {
-  width: 100%;
--webkit-animation-name: fade;
--webkit-animation-duration: 1.5s;
-animation-name: fade;
-animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-from {opacity: .4}
-to {opacity: 1}
-}
-
-@keyframes fade {
-from {opacity: .4}
-to {opacity: 1}
-}
-
-/**/
 
 /* The navigation bar */
 .navbar {
@@ -146,109 +58,36 @@ to {opacity: 1}
   padding-top: 30px;
 }
 
-/* Main content */
-.main {
-  margin-top: 30px; /* Add a top margin to avoid content overlay */
-}
-
-.resumen {
-    margin: 20px;
-    padding: 20px;
-    border: 1px solid black;
-}
-
 .serv{
   background-image: url(https://www.zitelia.com/wp-content/uploads/2016/05/Cabecera-servicios.jpg);
-  max-width: 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 300px;
 }
 
-.texto1{
-  color: #010334;
-  -webkit-text-size-adjust: 100%;
-  -webkit-font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
-  font-feature-settings: "pnum";
-  font-variant-numeric: proportional-nums;
-  visibility: visible;
-  pointer-events: auto;
-  text-align: center;
-  margin: 0;
-  padding: 0;
-  border: 0;
-  vertical-align: initial;
-  font-weight: 500;
-  font-family: Fat-Frank,Arial,sans-serif;
-  line-height: .95;
-  letter-spacing: -.02em;
-  text-transform: uppercase;
-  word-break: break-word;
-  word-spacing: .05em;
-  font-size: 56px;
-  padding-bottom: 20px;
+.content {
+  background: white;
+  margin: auto;
 }
-
 
 .caja1{
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
-
-  }
-
-.cajaInterior1{
-word-wrap:break-word;
-width: 250px;
-font-size: 15px;
+  padding: 10px;
 }
 
-  
-  .cajaInterior2{
-    word-wrap:break-word;
-    width: 250px;
-    font-size:15px;
-    }
-
-    .cajaInterior3{
-      word-wrap:break-word;
-      width: 250px;
-      font-size: 15px;
-      }   
-      
-      .cajaInterior4{
-        word-wrap:break-word;
-        width: 250px;
-        font-size: 15px;
-        }
-
-.figure1{
-border-radius: 4px;
-margin-top: 30px;
-padding: 5px;
-width: 200px;
-height: 200px;
+.cajaInterior{
+  word-wrap:break-word;
+  width: 250px;
+  font-size: 15px;
 }
 
-.figure2{
+.figure {
   border-radius: 4px;
   margin-top: 30px;
   padding: 5px;
   width: 200px;
   height: 200px;
-  }
-
-.figure3{
-    border-radius: 4px;
-    margin-top: 30px;
-    padding: 5px;
-    width: 200px;
-    height: 200px;
-    }
-   
-.figure4{
-      border-radius: 4px;
-      margin-top: 30px;
-      padding: 5px;
-      width: 200px;
-      height: 200px;
-      }
+}
