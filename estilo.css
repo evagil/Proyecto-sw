@@ -116,8 +116,6 @@ h1 {
   to {opacity: 1}
 }
 
-/**/
-
 /* The navigation bar */
 .navbar {
   display: flex;
@@ -252,18 +250,6 @@ ol li, ul li {
     position: relative;
     margin-bottom: 10px;
     color: #666;
-}
-
-
-
-/*.horizontalEquipo{
- /* display: flex;*/
- /* flex-flow: row wrap;*/
- /* justify-content: space-between;*/
-/*}*/
-
-element.style {
-  color: #747474;
 }
 
 /*----------Contacto------------------*/

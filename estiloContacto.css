@@ -1,0 +1,96 @@
+* {
+    box-sizing:border-box;
+    margin: 0;
+    font-family: "Noto Sans", sans-serif;
+    text-align: center;
+}
+
+h1 {
+    margin: 20px;
+    font-weight: 400;
+    font-size: 38px;
+    padding: 50px;
+    color: rgb(73, 73, 73);
+}
+
+/* The navigation bar */
+.navbar {
+    display: flex;
+    flex-flow: row wrap;
+    overflow: hidden;
+    background-color: #333;
+    width: 100%; /* Full width */
+    z-index: 1;
+  }
+    
+/* Links inside the navbar */
+.navbar a {
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    transition: all 500ms ease;
+    width: 20%;
+}
+  
+/* Change background on mouse-over */
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+  
+.sticky {
+    position: fixed;
+    top: 0;
+}
+  
+.sticky + .content {
+    padding-top: 30px;
+}
+
+.content {
+    background: rgba(196, 196, 196, 0.5);
+}
+
+.informacionImagen, .formulario {
+    background: white;
+}
+
+.informacionImagen {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 10px;
+    justify-content: center;
+}
+
+.infoContacto, .mapa {
+    width: 49%;
+}
+
+.infoContacto {
+    margin-right: 20px;
+    display: flex;
+    flex-flow: column wrap;
+    align-self: center;
+}
+
+.infoContacto p {
+    text-align: left;
+    width: 75%;
+    margin: auto;
+}
+
+.contenedorFormulario {
+    width: 50%;
+    margin: auto;
+    padding: 30px;
+}
+
+.campos {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 50%;
+    margin: 10px auto;
+}

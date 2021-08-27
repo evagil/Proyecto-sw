@@ -5,126 +5,80 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./estilo.css">
+    <link rel="stylesheet" type="text/css" href="./estiloContacto.css">
 </head>
 <body>
-    <div id="navbar" class="navbar">
-        <a href="./inicio.html">
-          <i class="fas fa-home"></i>
-          <span>Home</span>
-        </a>
-        <a href="./servicios.html">
-          <i class="far fa-keyboard"></i>
-          <span>Servicios</span>
-        </a>
-        <a href="./equipo.html">
-          <i class="fas fa-users"></i>
-          <span>Equipo</span>
-        </a>
-        <a href="./trabajo-cliente.html">
-          <i class="fas fa-user-tie"></i>
-          <span>Trabajo/Cliente</span>
-        </a>
-        <a href="./contacto.html">
-          <i class="far fa-envelope"></i>
-          <span>Contacto</span>
-        </a>
+  <div id="navbar" class="navbar">
+      <a href="./inicio.html">
+        <i class="fas fa-home"></i>
+        <span>Home</span>
+      </a>
+      <a href="./servicios.html">
+        <i class="far fa-keyboard"></i>
+        <span>Servicios</span>
+      </a>
+      <a href="./equipo.html">
+        <i class="fas fa-users"></i>
+        <span>Equipo</span>
+      </a>
+      <a href="./trabajo-cliente.html">
+        <i class="fas fa-user-tie"></i>
+        <span>Trabajo/Cliente</span>
+      </a>
+      <a href="./contacto.html">
+        <i class="far fa-envelope"></i>
+        <span>Contacto</span>
+      </a>
+  </div>
+  <div class="content">
+    <h1>CONTACTANOS<br>¡BIEN EN PERSONA O A TRAVÉS DE INTERNET!</h1>
+    <div class="informacionImagen">
+      <div class="infoContacto">
+        <p>
+          Si tienes alguna duda o quieres comentarnos algo, no tienes más que rellenar el formulario.<br>
+          Si lo prefieres, te decimos cómo llegar hasta nosotros y dónde encontrarnos.
+        </p>
+        <p>
+          Teléfono: (+34) 942 760 866<br>
+          Email: zitelia@zitelia.com<br>
+          Horario de atención:<br>
+          Lunes a jueves: 9:00 – 14:00 | 15:30 – 18:30<br>
+          Viernes: 8:30 – 15:30<br>
+          Del 15 julio al 15 septiembre: 8:30 – 15:30<br>
+          Dirección: Avda. de los Castros 33 (Urb. Los Chopos) Portal 1 – Bajo 2, 39005 Santander Cantabria.
+        </p>
+      </div>
+      <div class="mapa">
+        <iframe width="100%" height="400px" frameborder="0" style="border:0" 
+          src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDM3s1-RchCMZGWhHzdAcdh5VOkNOCJ_DU&amp;language=es&amp;q=Zitelia+Soluciones+Tecnológicas&amp;maptype=roadmap&amp;zoom=16" 
+          allowfullscreen=""></iframe>
+      </div>
     </div>
-    <script src="https://kit.fontawesome.com/d68f033c40.js" crossorigin="anonymous"></script>
-
-    <div class="fusion-builder-row fusion-row">
-        <div class="fusion-layout-column fusion_builder_column fusion-builder-column-0 
-            fusion_builder_column_1_1 1_1 fusion-one-full fusion-column-first 
-            fusion-column-last fusion-column-no-min-height" 
-            style="margin-top:0px;margin-bottom:0px;">
-            <div class="fusion-column-wrapper fusion-flex-column-wrapper-legacy" 
-                style="background-position: left top; background-repeat: no-repeat; 
-                background-size: cover; padding: 0px; min-height: 0px;">
-                <div class="shortcode-map fusion-google-map fusion-maps-embed-type 
-                contacta-google">
-                <iframe width="100%" height="400px" frameborder="0" style="border:0" 
-                src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDM3s1-RchCMZGWhHzdAcdh5VOkNOCJ_DU&amp;language=es&amp;q=Zitelia+Soluciones+Tecnológicas&amp;maptype=roadmap&amp;zoom=16" 
-                allowfullscreen=""></iframe>
-                </div>
-                <div class="fusion-clearfix">
-
-                </div>
-            </div>
-        </div>
+    <h1 title="Según el Reglamento General de Protección de Datos (RGPD), le informamos que se trata la información que se facilita en el formulario con el fin de enviarle información relacionada con nuestros productos y servicios por cualquier medio (postal, email o teléfono). Los datos proporcionados se conservarán mientras no solicite el cese de la actividad. Los datos no se cederán a terceros salvo en los casos en que exista una obligación legal.">Envianos un mensaje</h1>
+    <div class="formulario">
+      <div class="contenedorFormulario">
+        <form action="#" id="formulario">
+          <div class="campos">
+            <label for="email">Tu email</label>
+            <input type="text" name="email" id="inpEmail">
+          </div>
+          <div class="campos">
+            <label for="email">Tu teléfono</label>
+            <input type="text" name="telefono" id="inpTelefono">
+          </div>
+          <div class="campos">
+            <label for="email">Tu mensaje</label>
+            <input type="text" name="mensaje" id="inpMensaje">
+          </div>
+          <label for="enviarInfo">Asimismo se solicita su autorización para informarle sobre productos y servicios relacionados con los solicitados</label><br>
+          <input type="radio" name="enviarInformacion" value="si">Si
+          <input type="radio" name="enviarInformacion" value="no">No<br>
+          <input type="radio" name="politicaPrivacidad" value="si"><label for="politicaPrivacidad">He leido y acepto la política de privacidad</label>
+        </form>
+      </div>
     </div>
-
-    <div class="fusion-fullwidth fullwidth-box fusion-builder-row-2 
-        nonhundred-percent-fullwidth non-hundred-percent-height-scrolling" 
-        style="background-color: #ffffff;background-image:linear-gradient(180deg,
-             rgba(255,255,255,0) 0%,#ffffff 0%);
-             background-position: left top;background-repeat: repeat;padding-top:80px;
-             padding-right:40px;padding-bottom:80px;padding-left:40px;margin-bottom: 0px;
-             margin-top: 0px;border-width: 0px 0px 0px 0px;border-color:#eae9e9;
-             border-style:solid;">
-             <div class="fusion-builder-row fusion-row">
-                 <div class="fusion-layout-column fusion_builder_column 
-                    fusion-builder-column-1 fusion_builder_column_1_1 1_1 fusion-one-full 
-                    fusion-column-first fusion-column-last fusion-column-no-min-height" 
-                    style="margin-top:0px;margin-bottom:0px;">
-                        <div class="fusion-column-wrapper fusion-flex-column-wrapper-legacy" 
-                            style="background-position: left top; background-repeat: no-repeat; background-size: cover; padding:0px; min-height: 0px;">
-                                <style type="text/css"></style>
-                                    <div class="fusion-title title fusion-title-1 fusion-sep-none 
-                                        fusion-title-center fusion-title-text fusion-title-size-one 
-                                        fusion-border-below-title" style="margin-top:0px;
-                                        margin-bottom:31px;"><h1 class="title-heading-center 
-                                        fusion-responsive-typography-calculated" style="margin: 0px; 
-                                        --fontSize:26; line-height: 1.31;" data-fontsize="26" 
-                                        data-lineheight="34px"><p style="text-align: center;">
-                                            <span style="color: #5e5e5e;">CONTACTA CON ZITELIA</span><br>
-        <span style="color: #5e5e5e;">¡BIEN EN PERSONA O A TRAVÉS DE INTERNET!</span></p></h1></div><div class="fusion-sep-clear"></div><div class="fusion-separator fusion-full-width-sep lineaseparador-naranja " style="margin-left: auto;margin-right: auto;margin-top:-4px;margin-bottom:24px;width:100%;"><div class="fusion-separator-border sep-single sep-solid" style="border-color:#f8b42d;border-top-width:1px;"></div></div><div class="fusion-sep-clear"></div><div class="fusion-clearfix"></div></div></div><div class="fusion-layout-column fusion_builder_column fusion-builder-column-2 fusion_builder_column_1_2 1_2 fusion-one-half fusion-column-first" style="width:48%; margin-right: 4%;margin-top:0px;margin-bottom:20px;"><div class="fusion-column-wrapper fusion-flex-column-wrapper-legacy" style="background-position: left top; background-repeat: no-repeat; background-size: cover; padding: 0px; min-height: 0px;"><div class="fusion-sep-clear"></div><div class="fusion-separator" style="margin-left: auto;margin-right: auto;margin-top:25px;margin-bottom:25px;width:100%;max-width:200px;"></div><div class="fusion-sep-clear"></div><div class="fusion-text fusion-text-1" style="transform:translate3d(0,0,0);"><p style="text-align: left;"><span style="color: #5e5e5e;">Si tienes alguna duda o quieres comentarnos algo, no tienes más que rellenar el formulario.<br>
-        Asi todo te decimos <span style="text-decoration: underline;"><a style="color: #5e5e5e; text-decoration: underline;" href="#llegar-nosotros">cómo llegar hasta nosotros</a></span> y dónde encontrarnos.</span></p>
-        <p style="text-align: left;"><span style="color: #5e5e5e;"><strong>Dirección<br>
-        </strong>Avda. de los Castros 33 (Urb. Los Chopos) Portal 1 – Bajo 2, 39005 Santander Cantabria</span><br>
-        <span style="color: #5e5e5e;"> <strong>Teléfono<br>
-        </strong>(+34) 942 760 866 </span><br>
-        <span style="color: #5e5e5e;"> <strong>Email<br>
-        </strong> <a style="color: #5e5e5e;" href="mailto:zitelia@zitelia.com">zitelia@zitelia.com</a></span></p>
-        <p><span style="color: #5e5e5e;"><strong>Horario de atención:<br>
-        </strong></span><span style="color: #5e5e5e;">Lunes a jueves: 9:00 – 14:00 | 15:30 – 18:30<br>
-        Viernes: 8:30 – 15:30</span><br>
-        <span style="color: #5e5e5e;"><strong>Del 15 julio al 15 septiembre:<br>
-        </strong>8:30 – 15:30</span></p>
-        </div><div class="fusion-clearfix"></div></div></div><div class="fusion-layout-column fusion_builder_column fusion-builder-column-3 fusion_builder_column_1_2 1_2 fusion-one-half fusion-column-last" style="width:48%;margin-top:0px;margin-bottom:20px;"><div class="fusion-column-wrapper fusion-flex-column-wrapper-legacy" style="background-position: left top; background-repeat: no-repeat; background-size: cover; padding: 0px; min-height: 0px;"><div class="fusion-sep-clear"></div><div class="fusion-separator fusion-full-width-sep" style="margin-left: auto;margin-right: auto;margin-top:5px;margin-bottom:30px;width:100%;"></div><div class="fusion-sep-clear"></div><style type="text/css">.fusion-accordian  #accordion-21448-1 .panel-title a .fa-fusion-box{ color: #ffffff;}.fusion-accordian  #accordion-21448-1 .panel-title a .fa-fusion-box:before{ font-size: 13px; width: 13px;}.fusion-accordian  #accordion-21448-1 .panel-title a{font-size:18px;}.fusion-accordian  #accordion-21448-1 .fa-fusion-box { background-color: #333333;border-color: #333333;}.fusion-accordian  #accordion-21448-1 .panel-title a:hover, #accordion-21448-1 .fusion-toggle-boxed-mode:hover .panel-title a { color: #e9a825;}.fusion-accordian  #accordion-21448-1 .panel-title .active .fa-fusion-box,.fusion-accordian  #accordion-21448-1 .panel-title a:hover .fa-fusion-box { background-color: #e9a825!important;border-color: #e9a825!important;}</style><div class="accordian fusion-accordian"><div class="panel-group" id="accordion-21448-1" role="tablist"><div class="fusion-panel panel-default" role="tabpanel"><div class="panel-heading"><h4 class="panel-title toggle fusion-responsive-typography-calculated" data-fontsize="16" data-lineheight="22.08px" style="--fontSize:16; line-height: 1.38; --minFontSize:16;"><a aria-expanded="false" aria-selected="false" aria-controls="db93bf94670e38c89" role="tab" data-toggle="collapse" data-parent="#accordion-21448-1" data-target="#db93bf94670e38c89" href="#db93bf94670e38c89"><span class="fusion-toggle-icon-wrapper" aria-hidden="true"><i class="fa-fusion-box" aria-hidden="true"></i></span><span class="fusion-toggle-heading">RGPD</span></a></h4></div><div id="db93bf94670e38c89" class="panel-collapse collapse "><div class="panel-body toggle-content fusion-clearfix">
-        <p>Según el Reglamento General de Protección de Datos (RGPD), le informamos que Zitelia trata la información que nos facilita en el presente formulario con el fin de enviarle información relacionada con nuestros productos y servicios por cualquier medio (postal, email o teléfono). Los datos proporcionados se conservarán mientras no solicite el cese de la actividad. Los datos no se cederán a terceros salvo en los casos en que exista una obligación legal. Usted tiene derecho a solicitar sus datos personales, rectificar los datos inexactos o solicitar su supresión cuando los datos ya no sean necesarios para los fines que fueron recogidos presentando escrito a zitelia@zitelia.com. Puede ampliar la información acerca de nuestra política de protección de datos en nuestro apartado de política de protección de datos.</p>
-        </div></div></div></div></div><div class="fusion-sep-clear"></div><div class="fusion-separator fusion-full-width-sep" style="margin-left: auto;margin-right: auto;margin-top:5px;margin-bottom:30px;width:100%;"></div><div class="fusion-sep-clear"></div><div role="form" class="wpcf7" id="wpcf7-f13086-p21448-o1" lang="es-ES" dir="ltr">
-        <div class="screen-reader-response"><p role="status" aria-live="polite" aria-atomic="true"></p> <ul></ul></div>
-        <form action="/contacta/#wpcf7-f13086-p21448-o1" method="post" class="wpcf7-form init" novalidate="novalidate" data-status="init">
-        <div style="display: none;">
-        <input type="hidden" name="_wpcf7" value="13086">
-        <input type="hidden" name="_wpcf7_version" value="5.4.1">
-        <input type="hidden" name="_wpcf7_locale" value="es_ES">
-        <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f13086-p21448-o1">
-        <input type="hidden" name="_wpcf7_container_post" value="21448">
-        <input type="hidden" name="_wpcf7_posted_data_hash" value="">
-        <input type="hidden" name="_wpcf7_recaptcha_response" value="03AGdBq26LIrtE5bxqkKXDSMZ1e2rJrBJ923PJfg5AlNCcrF_JYul9bzzywRa-i07swyeRoeofAl8HD-65v7GCKYT87qJzswhIbLiQCUpp7FTjgspCZ6RRXUWeRm9YUt-DPMPOnzm4AV6z7Z940y4bdR_ZHbbS1qq_GAUAyqyzNU4L-K7v5Zw8HPZzrnlq_JoUUUe01GCDib2BuV4jY6Fvpcn14NNsOMtBWMlPotgvCCW1SW73Pj_NJggs6ZADoWKyHE_PtHpLaj7HzMgMt-7Qy0xLBzkB86KDBkR3na7LwzIjWUk81erq0MGM5cGFPXW1MDy1_i_xe05Qcv_DvVzmYbSVlZYD1zbZNgvRkycW-B_I6EzPTlxLOgtvjg5Wl7njKlznqUCZE29OxLScrscx4RStuqREvPvnafWWlKDWnnKXCYsnXFLHGHavUW7Ns4hCxPPQbD5NsmCa">
-        </div>
-        <p>Tu email*<span class="wpcf7-form-control-wrap email-819"><input type="email" name="email-819" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false"></span></p>
-        <p>Tu teléfono* <span class="wpcf7-form-control-wrap tel-001"><input type="tel" name="tel-001" value="" size="40" maxlength="9" class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel" aria-required="true" aria-invalid="false"></span></p>
-        <p>Tu mensaje*<br><span class="wpcf7-form-control-wrap textarea-212"><textarea name="textarea-212" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required" aria-required="true" aria-invalid="false"></textarea></span></p>
-        <p><span class="wpcf7-form-control-wrap acceptance-752"><span class="wpcf7-form-control wpcf7-acceptance"><span class="wpcf7-list-item"><label><input type="checkbox" name="acceptance-752" value="1" aria-invalid="false"><span class="wpcf7-list-item-label">He leido y acepto la <a href="https://www.zitelia.com/aviso-legal/">política de privacidad</a></span></label></span></span></span></p>
-        <p>Asimismo se solicita su autorización para informarle sobre productos y servicios relacionados con los solicitados <span class="wpcf7-form-control-wrap radio-223"><span class="wpcf7-form-control wpcf7-radio"><span class="wpcf7-list-item first"><input type="radio" name="radio-223" value="Si"><span class="wpcf7-list-item-label">Si</span></span><span class="wpcf7-list-item last"><input type="radio" name="radio-223" value="No"><span class="wpcf7-list-item-label">No</span></span></span></span></p>
-        <p><input type="submit" value="Enviar" class="wpcf7-form-control wpcf7-submit"></p>
-        <div class="fusion-alert alert custom alert-custom fusion-alert-center wpcf7-response-output fusion-alert-capitalize alert-dismissable" style="border-width:1px;"><button type="button" class="close toggle-alert" data-dismiss="alert" aria-hidden="true">×</button><div class="fusion-alert-content-wrapper"><span class="fusion-alert-content"></span></div></div><input type="hidden" name="ofpQxFBKTq" value="iMAhg3"><input type="hidden" name="DGbEmxqfnFSpts" value="Ogwrh1v@_aQ8P"><input type="hidden" name="XLABrx-wMIpotnU" value="ugqHBcL"><input type="hidden" name="QnWxlA" value="lruAPv8"></form></div><div class="fusion-clearfix"></div></div></div></div></div>
-
-
-        <div role="form" class="wpcf7" id="wpcf7-f13086-p21448-o1" lang="es-ES" dir="ltr">
-            <div class="screen-reader-response"><p role="status" aria-live="polite" aria-atomic="true"></p> <ul></ul></div>
-            <form action="/contacta/#wpcf7-f13086-p21448-o1" method="post" class="wpcf7-form init" novalidate="novalidate" data-status="init">
-            <div style="display: none;">
-            <input type="hidden" name="_wpcf7" value="13086">
-            <input type="hidden" name="_wpcf7_version" value="5.4.1">
-            <input type="hidden" name="_wpcf7_locale" value="es_ES">
-            <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f13086-p21448-o1">
-            <input type="hidden" name="_wpcf7_container_post" value="21448">
-            <input type="hidden" name="_wpcf7_posted_data_hash" value="">
-            <input type="hidden" name="_wpcf7_recaptcha_response" value="03AGdBq26LIrtE5bxqkKXDSMZ1e2rJrBJ923PJfg5AlNCcrF_JYul9bzzywRa-i07swyeRoeofAl8HD-65v7GCKYT87qJzswhIbLiQCUpp7FTjgspCZ6RRXUWeRm9YUt-DPMPOnzm4AV6z7Z940y4bdR_ZHbbS1qq_GAUAyqyzNU4L-K7v5Zw8HPZzrnlq_JoUUUe01GCDib2BuV4jY6Fvpcn14NNsOMtBWMlPotgvCCW1SW73Pj_NJggs6ZADoWKyHE_PtHpLaj7HzMgMt-7Qy0xLBzkB86KDBkR3na7LwzIjWUk81erq0MGM5cGFPXW1MDy1_i_xe05Qcv_DvVzmYbSVlZYD1zbZNgvRkycW-B_I6EzPTlxLOgtvjg5Wl7njKlznqUCZE29OxLScrscx4RStuqREvPvnafWWlKDWnnKXCYsnXFLHGHavUW7Ns4hCxPPQbD5NsmCa">
-            </div>
-            
+  </div>
+  <script src="https://kit.fontawesome.com/d68f033c40.js" crossorigin="anonymous"></script>
+  <script src="./sticky-navbar.js" type="text/javascript"></script>
 </body>
 </html>
