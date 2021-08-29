@@ -57,23 +57,31 @@
     <h1 title="Según el Reglamento General de Protección de Datos (RGPD), le informamos que se trata la información que se facilita en el formulario con el fin de enviarle información relacionada con nuestros productos y servicios por cualquier medio (postal, email o teléfono). Los datos proporcionados se conservarán mientras no solicite el cese de la actividad. Los datos no se cederán a terceros salvo en los casos en que exista una obligación legal.">Envianos un mensaje</h1>
     <div class="formulario">
       <div class="contenedorFormulario">
-        <form action="#" id="formulario">
+        <form action="#" id="formulario" autocomplete="off">
           <div class="campos">
             <label for="email">Tu email</label>
-            <input type="text" name="email" id="inpEmail">
+            <input type="email" name="email" id="inpEmail" required>
           </div>
           <div class="campos">
             <label for="email">Tu teléfono</label>
-            <input type="text" name="telefono" id="inpTelefono">
+            <input type="text" name="telefono" id="inpTelefono" required>
           </div>
           <div class="campos">
             <label for="email">Tu mensaje</label>
-            <input type="text" name="mensaje" id="inpMensaje">
+            <textarea name="mensaje" id="inpMensaje" cols="30" rows="5" required></textarea>
           </div>
-          <label for="enviarInfo">Asimismo se solicita su autorización para informarle sobre productos y servicios relacionados con los solicitados</label><br>
-          <input type="radio" name="enviarInformacion" value="si">Si
-          <input type="radio" name="enviarInformacion" value="no">No<br>
-          <input type="radio" name="politicaPrivacidad" value="si"><label for="politicaPrivacidad">He leido y acepto la política de privacidad</label>
+          <p for="enviarInfo">Asimismo se solicita su autorización para informarle sobre productos y servicios relacionados con los solicitados</p>
+          <div id="autorizacionInformacion">
+            <input type="radio" name="enviarInformacion" value="si" required>
+            <label for="">Si</label>
+            <input type="radio" name="enviarInformacion" value="no" required>
+            <label for="">No</label>
+          </div>
+          <div id="politicaYSeguridad">
+            <input type="radio" name="politicaPrivacidad" value="si" required>
+            <label for="politicaPrivacidad">He leido y acepto la política de privacidad</label><br>
+            <input type="submit" value="Enviar Mensaje">
+          </div>
         </form>
       </div>
     </div>
