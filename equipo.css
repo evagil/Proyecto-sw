@@ -10,16 +10,9 @@
     height: 150px;
   }
 
- .ContenedorDiv{
+ .ContenedorDiv{ /**/
     display: flex;
  }
-
- .section--title .h2 {
-    margin-bottom: 10px;
-  }
-  .mb--80 {
-    margin-bottom: 80px;
-  }
 
 .equipoPersona{
     display: flex;
@@ -28,11 +21,42 @@
   }  
 
   .parrafo{
-      background: #ccc ;
+      /*background: #ccc ;*/
       height: 220px;
       margin: 2rem auto;
       text-align: center;
       width: 300px;
   }
 
-  
+  hr {
+    height: 5px;
+    width: 50%;
+    margin-left: 25%;
+    background-color: black;
+  }
+
+  #footer {
+    background: #777777;
+    clear: both;
+    color: #DDDDDD;
+    font-size: 12px;
+    height: 50px;
+    line-height: 0.5;
+    padding: 0 192px;
+    min-width: 896px;
+}
+
+.fivesixth {
+  color: #6E7380;
+  text-decoration: none;
+  color: #6E7380;
+}
+
+.redesSociales{
+  display: inline-flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  width: 40px;
+}  
+
+
