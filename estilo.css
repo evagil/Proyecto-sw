@@ -1,14 +1,14 @@
 * {
-    box-sizing:border-box;
-    margin: 0;
-    font-family: "Noto Sans", sans-serif;
-    text-align: center;
+  box-sizing:border-box;
+  margin: 0;
+  font-family: "Noto Sans", sans-serif;
+  text-align: center;
 }
 
 h1 {
   margin: 20px;
   font-weight: 400;
-  font-size: 38;
+  font-size: 38px;
   padding: 50px;
   color: rgb(73, 73, 73);
 }
@@ -115,8 +115,6 @@ h1 {
   from {opacity: .4}
   to {opacity: 1}
 }
-
-/**/
 
 /* The navigation bar */
 .navbar {
@@ -252,18 +250,6 @@ ol li, ul li {
     position: relative;
     margin-bottom: 10px;
     color: #666;
-}
-
-
-
-/*.horizontalEquipo{
- /* display: flex;*/
- /* flex-flow: row wrap;*/
- /* justify-content: space-between;*/
-/*}*/
-
-element.style {
-  color: #747474;
 }
 
 /*----------Contacto------------------*/
